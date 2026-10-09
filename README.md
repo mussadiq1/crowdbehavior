@@ -12,7 +12,7 @@ This repository provides open-access benchmark trajectory datasets modeling hype
 
 ### Overview & Metadata
 - **Domain:** Extreme-density crowd dynamics, pedestrian simulation, circumambulation geometry.
-- **Spatial Scale:** Coordinate domain within the authentic polygonal boundary constraints of the Mataf concourse ($1000 \times 1000$ coordinate reference frame, centered at $(506, 479)$).
+- **Spatial Scale:** Coordinate domain within the authentic polygonal boundary constraints of the Mataf (Makkah, Saudi Arabia concourse ($1000 \times 1000$ coordinate reference frame, centered at (506, 479)).
 - **Temporal Discretization:** Integration step $\Delta t = 0.05\,\text{s}$.
 - **Populations:** Three scaled experimental cohorts (10,000, 20,000, and 30,000 agents) partitioned into sequential shards for efficient distributed handling.
 - **Demographics:** Mass distributions ($30.0\,\text{kg} \le m_i \le 100.0\,\text{kg}$) and gender-parameterized stride limitations ($s_{\max} \in \{0.670, 0.762\}\,\text{m}$).
