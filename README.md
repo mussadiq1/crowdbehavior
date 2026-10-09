@@ -1,4 +1,4 @@
-# Hyper-Dense Pedestrian Circumambulation Trajectory Dataset
+# Bridging the Micro-Macro Gap in Hyper-Dense Crowd Dynamics: Trajectory Dataset
 
 [![Format: CSV](https://img.shields.io/badge/Format-CSV-blue.svg)](#dataset-schema-and-features)
 [![Status: Pre-print / Under Review](https://img.shields.io/badge/Status-Under%20Review-orange.svg)](#citation)
@@ -55,7 +55,7 @@ Agent,Gender,Mass,Velocity,Model Step,X,Y
 | Field | Data Type | Physical Units | Description |
 | :--- | :--- | :--- | :--- |
 | `Agent` | Integer | ID index | Unique numerical pedestrian identifier active in the simulation pool. |
-| `Gender` | Categorical | Binary (`0` or `1`) | Demographic classification (`0` = female, `1` = male), specifying stride length bounds ($0.670\,\text{m}$ vs $0.762\,\text{m}$). |
+| `Gender` | Categorical | Binary (`0` or `1`) | Demographic classification (`0` = male, `1` = female), specifying stride length bounds ($0.670\,\text{m}$ vs $0.762\,\text{m}$). |
 | `Mass` | Float | Kilograms ($\text{kg}$) | Individual body mass ($30.0\text{--}100.0\,\text{kg}$). Sets personal body envelope radius $r_i = 0.3 + \frac{m_i}{200}$. |
 | `Velocity` | Float | Meters per second ($\text{m/s}$) | Instantaneous scalar speed evaluated at the active integration step. |
 | `Model Step` | Integer | Iteration index | Discrete temporal integration index ($\text{Physical Time } t = \text{Model Step} \times 0.05\,\text{s}$). |
